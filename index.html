@@ -1,0 +1,47 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <div class="col-xs-12 header_div text-center">
+    <div id="heading"><h2 >Sound Controlled Animals</h2>
+
+    <p>Note: Play different sounds like barking, meowing</p>
+  </div>
+  </div>
+  <div class="main_div">
+  </div>
+  
+      <center>
+        <br><br><br><br><br><br>
+        <div>
+        <button onclick="startListening()">START</button>
+        <h3 id="result_label">I can hear - </h3>
+        <h4 id="nunberOfdogs_catsHeard">Dogs Heard:<h4 id="dogsHeard">0</h4> <h4>Cats Heard:</h4> </h4> <h4 id="catsHeard">0</h4></h4>
+        <h3 id="animalHeard"></h3>
+        <br>
+        <img id="identifiedImage" src="Ear.png">
+      </div>
+      </center>
+    </div> 
+    <div class="footer">Developed by - Taylor</div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

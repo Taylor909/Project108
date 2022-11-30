@@ -1,0 +1,42 @@
+body{
+    background-color:rgba(226,232,222,255);
+    color:black;
+}
+
+button{
+    background-color:rgba(92,191,221,255);
+    color:antiquewhite;
+    font-weight: 600;
+    width: 10%;
+    letter-spacing: 2;
+}
+
+p{
+    text-align: center;
+}
+
+#heading{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:rgba(149,163,164,255);
+    text-align: center;
+    line-height: 1;
+    font-weight: 550;
+    color: aliceblue;
+    letter-spacing: 2;
+}
+
+img{
+    height: 300px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(245,245,245,255);
+    text-align: center;
+    line-height: 3;
+    letter-spacing: 2;
+}
